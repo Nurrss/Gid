@@ -23,6 +23,14 @@
         </div>
       </div>
     </div>
+    <div class="mt-2">
+      <input
+        type="text"
+        class="form-control mb-2 py-4"
+        placeholder="Напишите : Сумма на поездку , Количество человек , Цель поездки"
+        v-model="comment"
+      />
+    </div>
     <router-link to="/" exact class="btn btn-dark w-100 py-3 mt-4" href="#">
       Применить
     </router-link>

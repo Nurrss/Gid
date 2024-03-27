@@ -10,26 +10,27 @@
 
 <template>
   <div class="main-app">
-    <Navbar v-if="showElem" />
-    <combined v-if="showElem" />
+    <!-- <Navbar v-if="showElem" /> -->
+    <!-- <combined v-if="showElem" /> -->
     <main class="flex justify-center items-center max-w-lg mx-auto w-full">
       <RouterView />
     </main>
-    <my-footer v-if="showElem" />
+    <!-- <my-footer v-if="showElem" /> -->
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-import Combined from "./components/Combined.vue";
-import MyFooter from "./components/MyFooter.vue";
+// import Navbar from "./components/Navbar.vue";
+// import Combined from "./components/Combined.vue";
+// import MyFooter from "./components/MyFooter.vue";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 export default {
   name: "App",
   components: {
-    Combined,
-    Navbar,
-    MyFooter,
+    // Combined,
+    // Navbar,
+    // MyFooter,
   },
   computed: {
     showElem() {
